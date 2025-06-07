@@ -1,24 +1,19 @@
-//
-//  ContentView.swift
-//  WatchNet Watch App
-//
-//  Created by Pavel Cintins on 07/06/2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var browser = BonjourBrowser()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Bonjour MQTT Discovery")
+                .font(.headline)
+            Button("Start Browsing") {
+                browser.startBrowsing()
+            }
+            List(browser.foundServices, id: \.self) { service in
+                Text(service)
+            }
         }
         .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

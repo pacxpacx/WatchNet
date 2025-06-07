@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E41275C32DF465E400C22E18 /* WatchNet Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E41275C22DF465E400C22E18 /* WatchNet Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E41275DB2DF48DFA00C22E18 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41275DA2DF48DFA00C22E18 /* Network.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +38,25 @@
 /* Begin PBXFileReference section */
 		E41275BC2DF465E400C22E18 /* WatchNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41275C22DF465E400C22E18 /* WatchNet Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchNet Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41275DA2DF48DFA00C22E18 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.2.sdk/System/Library/Frameworks/Network.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E41275E22DF4B77E00C22E18 /* Exceptions for "WatchNet Watch App" folder in "WatchNet Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E41275C12DF465E400C22E18 /* WatchNet Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E41275C62DF465E400C22E18 /* WatchNet Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E41275E22DF4B77E00C22E18 /* Exceptions for "WatchNet Watch App" folder in "WatchNet Watch App" target */,
+			);
 			path = "WatchNet Watch App";
 			sourceTree = "<group>";
 		};
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41275DB2DF48DFA00C22E18 /* Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E41275C62DF465E400C22E18 /* WatchNet Watch App */,
+				E41275D92DF48DF900C22E18 /* Frameworks */,
 				E41275BD2DF465E400C22E18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +90,14 @@
 				E41275C22DF465E400C22E18 /* WatchNet Watch App.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E41275D92DF48DF900C22E18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41275DA2DF48DFA00C22E18 /* Network.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +342,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WatchNet Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = Z8Y3M6THR2;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/captain/xcode/WatchMQTT/WatchNet/WatchNet/WatchNet Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchNet;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -347,7 +373,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WatchNet Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = Z8Y3M6THR2;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/captain/xcode/WatchMQTT/WatchNet/WatchNet/WatchNet Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchNet;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
