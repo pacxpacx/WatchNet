@@ -343,7 +343,7 @@
 				DEVELOPMENT_TEAM = Z8Y3M6THR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "/Users/captain/xcode/WatchMQTT/WatchNet/WatchNet/WatchNet Watch App/Info.plist";
+                                INFOPLIST_FILE = "WatchNet Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchNet;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -374,7 +374,7 @@
 				DEVELOPMENT_TEAM = Z8Y3M6THR2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "/Users/captain/xcode/WatchMQTT/WatchNet/WatchNet/WatchNet Watch App/Info.plist";
+                                INFOPLIST_FILE = "WatchNet Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchNet;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
