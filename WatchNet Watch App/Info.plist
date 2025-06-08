@@ -16,10 +16,6 @@
     <string>$(EXECUTABLE_NAME)</string>
     <key>WKWatchKitApp</key>
     <true/>
-    <key>WKAppBundleIdentifier</key>
-    <string>MIA2.WatchNet.watchkitapp</string>
-    <key>WKCompanionAppBundleIdentifier</key>
-    <string>MIA2.WatchNet</string>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>
     <key>NSBonjourServices</key>
